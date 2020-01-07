@@ -68,7 +68,7 @@ ui <- fluidPage(
       #Input: time - how many steps to run the simulation
       sliderInput("time", "time:",
                   min = 0, max = 1000,
-                  value = 100, step = 1),
+                  value = 100, step = 1)
       
     ),
     
